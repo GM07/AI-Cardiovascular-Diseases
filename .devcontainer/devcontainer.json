@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.154.2/containers/julia
+// See https://github.com/julia-vscode/julia-devcontainer/blob/master/Dockerfile for image contents
+{
+	"name": "Julia (Community)",
+	"dockerFile": "Dockerfile",
+	"extensions": [
+		"julialang.language-julia",
+		"ms-azuretools.vscode-docker",
+		"mhutchie.git-graph",
+		"ms-toolsai.jupyter",
+		"james-yu.latex-workshop"
+	],
+	"mounts": [
+		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind",
+		"source=${localWorkspaceFolder}/jupyter-folder,target=/home/vscode/Kaggle-Competition-MTH3302,type=bind",
+	],
+	"remoteUser": "vscode",
+	"forwardPorts": [
+		8888
+	],
+}
