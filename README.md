@@ -5,9 +5,11 @@
 * Installer l'extension Remote-container de Vscode
 * Si vous avez Wsl2, installer Remote-WSL
 
-J'ai mis les extension en "Recommended" dans les configurations, vous allez donc facilement les trouver dans l'onglet Extension de Vscode.
 ## Commencer le travail
 Lorsque vous êtes dans le container avec Vscode, voici les étapes à suivre:
+
+Installer les extensions recommandées (optionnel, mais conseillé)
+
 Ouvrir un terminal de vscode
 1. Utiliser la commande julia start-jupyter.jl dans le terminal
 2. Une page dans vscode va s'ouvrir avec des liens, faites CTRL+CLICK sur le lien pour vous rediriger sur un browser avec Jupyter d'installer.
