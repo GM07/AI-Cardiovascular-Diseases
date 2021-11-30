@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start jupyter",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"runOptions": {
+				"runOn": "folderOpen",
+			},
+			"command": [
+                "julia start-jupyter.jl"
+			],
+		},
+        {
+			"label": "List jupyter notebooks",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"command": [
+                "jupyter notebook list"
+			],
+		},
+
+	],
+}
