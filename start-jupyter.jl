@@ -8,6 +8,7 @@ Pkg.add("StatsBase");
 Pkg.add("LinearAlgebra");
 Pkg.add("Distributions");
 Pkg.add("GLM");
+Pkg.add("Plots");
 Pkg.add("Dates");
 Pkg.add("MLBase");
 Pkg.add("Random");
