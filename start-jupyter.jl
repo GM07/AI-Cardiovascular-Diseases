@@ -12,6 +12,8 @@ Pkg.add("Dates");
 Pkg.add("MLBase");
 Pkg.add("Random");
 Pkg.add("Combinatorics");
+Pkg.add("StatsModels");
+Pkg.add("Missings");
 
 using IJulia
 notebook()
